@@ -1,6 +1,6 @@
 {
   "name": "react-native-android-navigation-bar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Native component to change bottom bar/navigation bar color on Android",
   "repository": "https://github.com/lambirou/react-native-android-navigation-bar.git",
   "author": "Roland Edi - (https://github.com/lambirou)",
