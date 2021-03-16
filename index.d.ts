@@ -1,9 +1,11 @@
 declare module "react-native-android-navigation-bar" {
-    class NavigationBar {
-        color: (color: string, light: boolean, animated: boolean) => void
-        hide: () => any
-        hide: () => any
-    }
+  class NavigationBarColor {
+    changeColor: (color: string, light?: boolean, animated?: boolean) => void
+    hide: () => any
+    show: () => any
+  }
 
-    export default NavigationBar;
+  const NavigationBar: NavigationBarColor;
+
+  export default NavigationBar;
 }
