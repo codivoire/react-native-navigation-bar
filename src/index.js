@@ -21,7 +21,7 @@ const hideNavigationBar = () => {
 };
 const showNavigationBar = () => {
   if (Platform.OS === 'android') {
-    NavigationBarColor.showNavigationBar();
+    return NavigationBarColor.showNavigationBar();
   } else {
     return false;
   }
