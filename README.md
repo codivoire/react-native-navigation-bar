@@ -8,8 +8,7 @@ React Native Navigation Bar Color Change is a library for change color of naviga
                                              
 |  <img src="https://github.com/codivoire/react-native-navigation-bar/raw/master/screenshots/screenShot1.jpg" height="600"> | 
 |  <img src="https://github.com/codivoire/react-native-navigation-bar/raw/master/screenshots/screenShot2.jpg" height="600"> | 
-|  <img src="https://github.com/codivoire/react-native-navigation-bar/raw/master/screenshots/screenShot3.jpg" height="600"> | 
-|  <img src="https://user-images.githubusercontent.com/29806253/46919604-96247c00-cfaf-11e8-996a-81330dad6562.png" height="600"> |
+|  <img src="https://github.com/codivoire/react-native-navigation-bar/raw/master/screenshots/screenShot3.jpg" height="600"> |
 
 ## Dependencies:
 
