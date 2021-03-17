@@ -13,16 +13,6 @@ React Native Navigation Bar Color Change is a [React Native](http://facebook.git
 <img src="https://user-images.githubusercontent.com/29806253/46919604-96247c00-cfaf-11e8-996a-81330dad6562.png" height="600">
 </div>
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Example](#example)
-- [API](#api)
-- [License](#license)
-
-## Support
-<a href="https://www.buymeacoffee.com/thebylito"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;"  target="_blank"></a>
-
 ## Installation
 
 ### 1 - Dependencies:
@@ -31,11 +21,11 @@ react-native >= 0.60.0
 
 ### 2 - Install the package:
 
-`$ yarn add react-native-navigation-bar-color`
+`$ yarn add @codivoire/react-native-navigation-bar`
 
 or
 
-`$ npm install react-native-navigation-bar-color --save`
+`$ npm install @codivoire/react-native-navigation-bar --save`
 
 ## Example
 
@@ -103,7 +93,7 @@ export default function App() {
 
 ## API
 
-### `changeNavigationBarColor(color, Boolean(light icon color), Boolean(animated - default is true))`: (Android)
+### `changeColor(color, Boolean(light icon color), Boolean(animated - default is true))`: (Android)
 Change color of Navigation/Bottom bar.
 color can be a "translucent" | "transparent" | HEX color, or name.
 
@@ -111,40 +101,28 @@ ex: green, blue, #80b3ff, #ffffff....
 
 Light is true? icons will be dark.
 
-- Returns a `Promise`
-
 ```javascript
-  example = async () => {
-      try{
-          const response = await changeNavigationBarColor('#80b3ff');
-          console.log(response)// {success: true}
-      }catch(e){
-          console.log(e)// {success: false}
-      }
-
-  };
+  import NavigationBar from '@codivoire/react-native-navigation-bar';
+  
+  NavigationBar.changeColor('#80b3ff');
 ```
 
-### `hideNavigationBar()`: (Android)
+### `hide()`: (Android)
 Hide Navigation Bar
 
 ```javascript
   import NavigationBar from '@codivoire/react-native-navigation-bar';
- ...
-  hide = () => {
-      NavigationBar.hide();
-  };
+  
+  NavigationBar.hide();
 ```
 
-### `showNavigationBar()`: (Android)
+### `show()`: (Android)
 Show Navigation Bar
 
 ```javascript
   import NavigationBar from '@codivoire/react-native-navigation-bar';
- ...
-  show = () => {
-      NavigationBar.show();
-  };
+  
+  NavigationBar.show();
 ```
 
 ## License
