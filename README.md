@@ -1,21 +1,22 @@
-# React Native Navigation Bar Color Change
+# @codivoire/react-native-navigation-bar
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fthebylito%2Freact-native-navigation-bar-color.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fthebylito%2Freact-native-navigation-bar-color?ref=badge_shield)
+[![npm version](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.org/package/axios)
+![Supports Android](https://img.shields.io/badge/platforms-android-lightgrey.svg) 
+![MIT License](https://img.shields.io/npm/l/@codivoire/react-native-navigation-bar.svg)
 
 
-React Native Navigation Bar Color Change is a [React Native](http://facebook.github.io/react-native/) library for change color of navigation/Bottom bar on Android.
-
-### Android Only
+React Native Navigation Bar Color Change is a library for change color of navigation/Bottom bar on Android
 
 <div>
-<img src="https://github.com/codivoire/react-native-navigation-bar/raw/master/screenshots/screenShot1.jpg" height="600">
-<img src="https://github.com/codivoire/react-native-navigation-bar/raw/master/screenshots/screenShot2.jpg" height="600">
-<img src="https://github.com/codivoire/react-native-navigation-bar/raw/master/screenshots/screenShot3.jpg" height="600">
-<img src="https://user-images.githubusercontent.com/29806253/46919604-96247c00-cfaf-11e8-996a-81330dad6562.png" height="600">
+  <img src="https://github.com/codivoire/react-native-navigation-bar/raw/master/screenshots/screenShot1.jpg" height="600">
+  <img src="https://github.com/codivoire/react-native-navigation-bar/raw/master/screenshots/screenShot2.jpg" height="600">
+  <img src="https://github.com/codivoire/react-native-navigation-bar/raw/master/screenshots/screenShot3.jpg" height="600">
+  <img src="https://user-images.githubusercontent.com/29806253/46919604-96247c00-cfaf-11e8-996a-81330dad6562.png" height="600">
 </div>
 
 ## Dependencies:
 
-- react-native >= 0.60.0
+- React Native >= 0.60.0
 - Android Only
 
 ## Installation
