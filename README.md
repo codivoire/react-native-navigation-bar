@@ -1,6 +1,7 @@
 # @codivoire/react-native-navigation-bar
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcodivoire%2Freact-native-navigation-bar.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcodivoire%2Freact-native-navigation-bar?ref=badge_shield)
 [![npm version](https://img.shields.io/npm/v/@codivoire/react-native-navigation-bar.svg?style=flat-square)](https://www.npmjs.org/package/@codivoire/react-native-navigation-bar)
+[![npm downloads](https://img.shields.io/npm/dm/axios.svg?style=flat-square)](http://npm-stat.com/charts.html?package=@codivoire/react-native-navigation-bar)
 ![Supports Android](https://img.shields.io/badge/platforms-android-lightgrey.svg) 
 ![MIT License](https://img.shields.io/npm/l/@codivoire/react-native-navigation-bar.svg)
 
