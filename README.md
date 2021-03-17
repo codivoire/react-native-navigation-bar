@@ -7,19 +7,18 @@ React Native Navigation Bar Color Change is a [React Native](http://facebook.git
 ### Android Only
 
 <div>
-<img src="https://github.com/thebylito/react-native-navigation-bar-color/raw/master/screenshots/screenShot1.jpg" height="600">
-<img src="https://github.com/thebylito/react-native-navigation-bar-color/raw/master/screenshots/screenShot2.jpg" height="600">
-<img src="https://github.com/thebylito/react-native-navigation-bar-color/raw/master/screenshots/screenShot3.jpg" height="600">
+<img src="https://github.com/codivoire/react-native-navigation-bar/raw/master/screenshots/screenShot1.jpg" height="600">
+<img src="https://github.com/codivoire/react-native-navigation-bar/raw/master/screenshots/screenShot2.jpg" height="600">
+<img src="https://github.com/codivoire/react-native-navigation-bar/raw/master/screenshots/screenShot3.jpg" height="600">
 <img src="https://user-images.githubusercontent.com/29806253/46919604-96247c00-cfaf-11e8-996a-81330dad6562.png" height="600">
 </div>
 
+## Dependencies:
+
+- react-native >= 0.60.0
+- Android Only
+
 ## Installation
-
-### 1 - Dependencies:
-
-react-native >= 0.60.0
-
-### 2 - Install the package:
 
 `$ yarn add @codivoire/react-native-navigation-bar`
 
@@ -80,7 +79,7 @@ export default function App() {
       <Button
         title="Set color ligth"
         onPress={() => {
-          changeNavigationBarColor('#ffffff', true);
+          NavigationBar.changeColor('#ffffff', true);
         }}
       />
       <Button title="Hide bar" onPress={hideNavigation} />
