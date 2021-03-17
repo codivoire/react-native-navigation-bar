@@ -25,58 +25,24 @@ React Native Navigation Bar Color Change is a [React Native](http://facebook.git
 
 ## Installation
 
-<details>
-<summary>react-native >= 0.60.0</summary>
+### 1 - Dependencies:
 
-### 1 - Install the package:
+react-native >= 0.60.0
 
-`$ yarn add react-native-navigation-bar-color`
-
-or
-
-`$ npm install react-native-navigation-bar-color --save`
-
-## That's is all!
-
-</details>
-
-<details>
-
-<summary>react-native <= 0.59.0</summary>
-
-### 1 - Install the package:
+### 2 - Install the package:
 
 `$ yarn add react-native-navigation-bar-color`
 
 or
 
 `$ npm install react-native-navigation-bar-color --save`
-
-### 2 - Configure package:
-
-1. Open up `android/app/src/main/java/[...]/MainApplication.java`
-  - Add `import com.thebylito.navigationbarcolor.NavigationBarColorPackage;` to the imports at the top of the file
-  - Add `new NavigationBarColorPackage()` to the list returned by the `getPackages()` method
-2. Append the following lines to `android/settings.gradle`:
-  	```
-    include ':react-native-navigation-bar-color'
-    project(':react-native-navigation-bar-color').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-navigation-bar-color/android')
-  	```
-3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
-  	```
-    implementation project(':react-native-navigation-bar-color')
-  	```
-</details>
 
 ## Example
-
-<details>
-<summary>**Android Implementation**</summary>
 
 ```javascript
 import React from 'react';
 import {View, Text, Button} from 'react-native';
-import NavigationBar from 'react-native-navigation-bar-color';
+import NavigationBar from '@codivoire/react-native-navigation-bar';
 
 export default function App() {
   const setNavigationColor = color => {
@@ -134,7 +100,6 @@ export default function App() {
   );
 }
 ```
-</details>
 
 ## API
 
@@ -160,28 +125,14 @@ Light is true? icons will be dark.
   };
 ```
 
-## OR
-
-```javascript
-  example = async () => {
-      try{
-          const response = await changeNavigationBarColor('#80b3ff', true);
-          console.log(response)// {success: true}
-      }catch(e){
-          console.log(e)// {success: false}
-      }
-    
-  };
-```
-
 ### `hideNavigationBar()`: (Android)
 Hide Navigation Bar
 
 ```javascript
-  import { hideNavigationBar } from 'react-native-navigation-bar-color';
+  import NavigationBar from '@codivoire/react-native-navigation-bar';
  ...
   hide = () => {
-      hideNavigationBar();
+      NavigationBar.hide();
   };
 ```
 
@@ -189,15 +140,13 @@ Hide Navigation Bar
 Show Navigation Bar
 
 ```javascript
-  import { showNavigationBar } from 'react-native-navigation-bar-color';
+  import NavigationBar from '@codivoire/react-native-navigation-bar';
  ...
   show = () => {
-      showNavigationBar();
+      NavigationBar.show();
   };
 ```
 
 ## License
 
 MIT
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fthebylito%2Freact-native-navigation-bar-color.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fthebylito%2Freact-native-navigation-bar-color?ref=badge_large)
