@@ -76,29 +76,26 @@ or
 ```javascript
 import React from 'react';
 import {View, Text, Button} from 'react-native';
-import changeNavigationBarColor, {
-  hideNavigationBar,
-  showNavigationBar,
-} from 'react-native-navigation-bar-color';
+import NavigationBar from 'react-native-navigation-bar-color';
 
 export default function App() {
   const setNavigationColor = color => {
-    changeNavigationBarColor(color);
+    NavigationBar.changeColor(color);
   };
   const hideNavigation = () => {
-    hideNavigationBar();
+    NavigationBar.hide();
   };
 
   const showNavigation = () => {
-    showNavigationBar();
+    NavigationBar.show();
   };
 
   const testSetTranslucent = () => {
-    changeNavigationBarColor('translucent', false);
+    NavigationBar.changeColor('translucent', false);
   };
 
   const testSetTransparent = () => {
-    changeNavigationBarColor('transparent', true);
+    NavigationBar.changeColor('transparent', true);
   };
 
   return (
